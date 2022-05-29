@@ -1,4 +1,4 @@
-# Projetos-HTML-CSS-e-Javascrip
+# Javascrip
 
 ## Treinando HTML CSS e Javascript
 
