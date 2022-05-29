@@ -1,4 +1,4 @@
-# Javascrip
+# Javascript
 
 ## Treinando HTML CSS e Javascript
 
