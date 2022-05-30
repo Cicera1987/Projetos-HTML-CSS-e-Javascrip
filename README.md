@@ -4,4 +4,6 @@
 
 Temos alguns projetos em HTM CSS e Javascript
 
-🚀Projeto Calculadora simples IMC<br>
+🚀Projeto Calculadora IMC<br>
+🚀Projeto Calculadora simples<br>
+🚀Projeto Formulário<br>
