@@ -15,10 +15,18 @@ document.write('<h1>Olá ' + nome1 + ', tudo bem? Estou vendo aqui que você pos
 //Valores Null e Undefined
 //Null
 var test = null
+console.log(test)
 
+
+test = 'Valor modificado com sucesso'
+console.log(test)
+
+
+test = 127.48
+console.log(test)
 
 //Andefined
-var teste2 //undefined
-
-console.log(test)
+var teste2 //undefined - sessão indefinida
 console.log(teste2)
+
+
