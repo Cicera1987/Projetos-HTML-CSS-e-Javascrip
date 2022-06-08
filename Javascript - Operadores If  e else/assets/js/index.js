@@ -15,6 +15,16 @@
  * Maior igual (>) - Verifica se o valor da esquerda é maior ou igual que o valor da direita
  */
 
+/**Operadores Logicos
+ * O que são operadores lógicos?
+ * 
+ * Operadores
+ * 
+ * E (&&) - Verdadeiro se todas as expressões fprem verdadeiras.
+ * OU (II) - Verdadeiro se pelo menos uma das expressões for verdadeira.
+ * Negação (!) - Inverte o resultado da expressão de comparação.
+ */
+
 
 if (7 == 7) {
     document.write('Entrou no bloco if (verdadeiro)')
