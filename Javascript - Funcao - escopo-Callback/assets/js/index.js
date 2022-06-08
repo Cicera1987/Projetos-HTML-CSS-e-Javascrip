@@ -23,4 +23,15 @@ var are = calcularArea(largura, comprimento)
 
 document.write('O terreno possui ' + are + ' metros quadrados')
 
+document.write('<br/>')
+
+
+//Funções Anônimas
+
+var exibirSaudacao = function (nome) {
+    document.write(' Olá ' + nome + ', Tudo bem?')
+
+}
+
+exibirSaudacao('Maria')
 
