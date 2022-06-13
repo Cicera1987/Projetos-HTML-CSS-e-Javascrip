@@ -26,11 +26,16 @@ h1{
 
 }
 
-.relogio{
+.relogio {
     font-size: 3em;
 }
 
-.botao{
+.botao {
     margin-top: 50px;
     margin-bottom: -20px; 
+}
+
+.pausado {
+    color: red
+    ;
 }
