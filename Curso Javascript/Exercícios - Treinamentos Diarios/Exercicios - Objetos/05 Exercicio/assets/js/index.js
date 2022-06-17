@@ -2,7 +2,7 @@
 
 // 05 - Crie uma classe conta no banco.
 // Propriedade - Saldo conta corrente - saldo poupança e juros poupança
-// Crie os meti=odos de deposito e saque
+// Crie os metodos de deposito e saque
 // Crie outro metodo para tranferencia poupança para C.corrente
 // Crie uma conta especial, na qual os juros são o dobro da conta normal.
 
