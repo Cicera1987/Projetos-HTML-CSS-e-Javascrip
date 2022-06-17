@@ -1,24 +1,42 @@
 //Sessão de exercicios de Orientação e objetos
 
-//01 - Crie uma classe que simula uma conta no banco.
-//Utilize a forma que prefirir
-// Deve conter a propriedade - saldo;
-//E os metodos deposito e saque;
-//Teste os métodos
-class Conta {
-    constructor(saldo){
-        this.saldo = saldo;
-
+// 04 - Crie uma classe que simule um carro.
+// Possuir as propriedade: marca, cor, combustivelRestante;
+// Crie um médoto de dirigir, no qual o combustivel,
+// vá diminuindo gradativamente
+// e outro metodo para abastecer, quando necessário;
+class Carro { // cria class - parte 1
+    constructor(marca, cor, combustivelRestante, consumo){
+        this.marca = marca;
+        this.cor = cor;
+        this.combustivelRestante = combustivelRestante;
+        this.consumo = consumo;
     }
 
-    deposito(valor){
-        this.saldo += valor;
+    dirigir(Km){  // cria o primeiro metodo - parte 4
+
+        let litrosConsumidos = Km / this.consumo;
+
+        this.combustivelRestante -= litrosConsumidos;
+    }
+    abastecer(l) { // cria o segundo metodo - parte 7
+        this.combustivelRestante += l;
+
     }
 
 }
 
-let conta = new Conta(1000);
 
-conta.deposito(1000);
 
-console.log(conta.saldo)
+
+let carro = new Carro("Chevrolet", "preta", "100", 14); // finaliza class - parte 2
+console.log(carro); // testar - parte 3
+
+
+carro.dirigir(100); // chama o metodo dirigir e adiciona o km rodado - parte 5
+console.log(carro); // testar o metodo - parte 6
+
+carro.abastecer(10); // chama o meetodo abastecer e adicona o litro - parte 8
+console.log(carro);  // testar o metodo - parte 9
+
+
