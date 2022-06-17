@@ -1,3 +1,4 @@
+
 //Sessão de exercicios de Orientação e objetos
 
 //01 - Crie uma classe que simula uma conta no banco.
@@ -15,10 +16,17 @@ class Conta {
         this.saldo += valor;
     }
 
+    saque(valor) {
+        this.saldo -= valor;
+    }
+
 }
 
 let conta = new Conta(1000);
 
 conta.deposito(1000);
-
 console.log(conta.saldo)
+
+conta.saque(500);
+console.log(conta.saldo);
+
